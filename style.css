@@ -129,4 +129,40 @@ header{
     text-align: right;
 }
 
-/* popular collection design starts */
+/* popular collection design ends */
+
+
+/* last section design starts */
+
+.last-section{
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.info{
+    width: 50%;
+}
+
+.info>p{
+    text-align: justify;
+}
+
+.info>a{
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(224, 44, 109);
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+ 
+.info>h2, img, p, a{
+    margin-left: 0%;
+}
+
+.picture{
+    width: 40%;
+}
+
+/* last section design starts */
