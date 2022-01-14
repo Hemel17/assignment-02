@@ -29,7 +29,7 @@ header{
 .first-section{
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin: 3em 0;
 }
 
 .half{
@@ -61,3 +61,14 @@ header{
 }
 
 /* first section design ends */
+
+
+/* logo design starts */
+
+.logos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* logo design ends */
