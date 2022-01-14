@@ -22,5 +22,42 @@ header{
     margin-left: 15px;
 }
 
-
 /* header design ends */
+
+/* first section design starts */
+
+.first-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.half{
+    width: 50%;
+}
+
+.first-half{
+    margin-top: 5%;
+}
+
+.half>h1{
+    font-size: 50px;
+    margin: 0;
+}
+
+.half>a{
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(224, 44, 109);
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+
+.half>img{
+    width: 70%;
+    margin-left: 25%;
+}
+
+/* first section design ends */
