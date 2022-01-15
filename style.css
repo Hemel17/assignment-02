@@ -50,7 +50,7 @@ header{
 }
 
 .half>p{
-    margin-left: 0%;
+    margin-left: 0;
 }
 
 .half>a{
@@ -85,7 +85,7 @@ header{
 /* popular collection design starts */
 
 .collection{
-    margin: 8em 0;
+    margin: 5em 0;
 }
 
 .collection>h2{
@@ -115,9 +115,10 @@ header{
 
 .products>.product>p{
     color: gray;
+    margin-left: 1em;
 }
 
-.products>.product> img, h2, h3, p{
+.products>.product> img, h2, h3{
     margin: 1em;
 }
 
@@ -141,6 +142,7 @@ header{
 
 .info{
     width: 50%;
+    margin: 3em 0;
 }
 
 .info>p{
@@ -161,8 +163,48 @@ header{
     margin-left: 0%;
 }
 
-.picture{
+.youtube{
     width: 40%;
 }
 
-/* last section design starts */
+.youtube>h2{
+    text-align: center;
+}
+
+.youtube>iframe{
+    box-shadow: 0 0 25px gray;
+}
+
+/* last section design endss */
+
+
+/* footer design starts */
+
+footer{
+    background-color: rgb(10, 8, 38);
+    margin-top: 1em;
+}
+
+.footer{
+    color: white;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   text-align: center;
+}
+
+.footer-info>h2{
+    margin-bottom: 0%;
+}
+
+.footer-social{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2em;
+}
+
+.footer-social>.social{
+    margin-left: 1em;
+}
+
+/* footer design endts */
