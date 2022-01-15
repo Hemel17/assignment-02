@@ -249,7 +249,7 @@ footer{
  ----------------------*/
 
  @media only screen and (max-width: 576px) {
-
+   
     header>.navbar{
         display: none;
     }
@@ -261,6 +261,7 @@ footer{
     .first-section>.half{
         width: 100%;
         margin: 1em 0;
+        text-align: center;
     }
 
     .logo-section{
